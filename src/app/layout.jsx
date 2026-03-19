@@ -1,6 +1,8 @@
 
 
 
+import './globals.css';
+
 export const metadata = {
   title: "my app next js",
   description: "aprendiendo metadata en next js",
@@ -10,15 +12,15 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang='en'>
+    <html lang='en' className="h-full">
 
-      <body>
+      <body className="h-full">
         
-        <nav style={{ padding: '20px', backgroundColor: '#fofofo' }}>
-          <h2>My app de usuarios</h2>
+        <nav className="p-5">
+          <h2 className="text-blue-500">My app de usuarios</h2>
         </nav>
 
-        <main style={{ padding: '20px' }}>
+        <main className="p-5">
           {children}
         </main>
 

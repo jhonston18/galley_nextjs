@@ -2,14 +2,3 @@
 
 
 
-body {
-  background-color: #030712;
-  color: white;
-}
-
-.galeria {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(5, 1fr);
-  
-}
